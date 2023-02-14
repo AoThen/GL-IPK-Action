@@ -54,4 +54,4 @@ jobs:
       with:
         name: ${{ github.event.inputs.pkgname }}_related_ipks
         path: |
-          ./*ipk*
+          ./*${{ github.event.inputs.pkgname }}*ipk*

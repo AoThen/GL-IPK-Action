@@ -1,3 +1,5 @@
+name: Build GL-MT2500 ipk插件
+
 on: 
   workflow_dispatch:
     inputs:

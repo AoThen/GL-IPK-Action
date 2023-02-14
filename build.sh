@@ -2,7 +2,7 @@
 echo SOURCECODEURL: "$SOURCECODEURL"
 echo PKGNAME: "$PKGNAME"
 echo BOARD: "$BOARD"
-EMAIL=${EMAIL:-"aa@163.com"}
+EMAIL=${EMAIL:-"AoThen@GitHub.com"}
 echo EMAIL: "$EMAIL"
 echo PASSWORD: "$PASSWORD"
 

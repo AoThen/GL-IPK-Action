@@ -4,6 +4,7 @@ on:
       device:
         description: 'Select device'     
         required: true
+        default: "MT2500"
         type: choice
         options:
         - AX1800
@@ -14,9 +15,11 @@ on:
         - SFT1200
       sourcecode:
         description: 'Source code URL'     
+        default: "https://github.com/vernesong/OpenClash.git"
         required: true
       pkgname:
         description: 'Openwrt package name'  
+        default: "openclash"
         required: true
       email:
         description: 'Git accuont email address'  

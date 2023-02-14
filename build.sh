@@ -64,8 +64,6 @@ esac
 cd openwrt-sdk
 sed -i "1i\src-link githubaction ${WORKDIR}/buildsource" feeds.conf.default
 
-#OpenClash
-echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 
 ls -l
 cat feeds.conf.default
